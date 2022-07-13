@@ -16,10 +16,10 @@ body{
 }
 
 #sala{
+  border-radius: 20px;
   height: 215px;
   padding: 1rem;
   box-sizing: border-box;
-  border-radius: 40px;
   display: flex;
   margin-left: 70%;
   margin-top: -40px;
