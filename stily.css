@@ -1,7 +1,13 @@
 body{
   margin: 0;
   background: url(fundo.jpg);
-  background-size: cover;
+  background-size: none;
+}
+.texto1{
+  margin-left: 2%;
+}
+.texto2{
+  margin-left: -150%;
 }
 #cursos{
     height: 215px;
@@ -9,7 +15,7 @@ body{
     display: flex;
     box-sizing: border-box;
     border-radius: 35px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 #sala{
   border-radius: 20px;
@@ -28,7 +34,7 @@ a {
 .cere{
   display: flex;
   width: 100px;
-  height: 162px;
+  height: 163.9px;
   margin: 0;
 }
 a:hover {
@@ -62,7 +68,40 @@ a:hover {
 #btn-mobile {
   display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .texto1{
+    margin-left: 2%;
+    height: 30%;
+    width: 70%;
+  }
+  .texto2{
+    margin-left: -200%;
+    height: 90px;
+    width: 40%;
+  }
+  #sala{
+    border-radius: 20px;
+    height: 160px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 260px;
+  }
+  .cere{
+    display: flex;
+    width: 100px;
+    height: 49.3px;
+    margin: 0;
+  }
+  #cursos{
+    height: 160px;
+    padding: 0.5rem;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-left: 2%;
+}
   #menu {
     display: block;
     position: absolute;
@@ -100,7 +139,7 @@ a:hover {
     width: 20px;
   }
   #hamburger::after{
-    
+    margin: 0;
   }
   #hamburger::before {
     content: '';
