@@ -2,12 +2,13 @@ body{
   margin: 0;
   background: url(fundo.jpg);
   background-size: none;
+  overflow-x: hidden;
 }
 .texto1{
   margin-left: 2%;
 }
 .texto2{
-  margin-left: -150%;
+  justify-content: center;
 }
 #cursos{
     height: 215px;
@@ -68,12 +69,12 @@ a:hover {
 #btn-mobile {
   display: none;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .texto1{
     margin-left: 2%;
     height: 30%;
     width: 70%;
-  }
+  } */
   .texto2{
     margin-left: -200%;
     height: 90px;
@@ -88,12 +89,26 @@ a:hover {
     margin-left: 45%;
     margin-top: 260px;
   }
-  .cere{
+  .div-cere{
+    min-width: 100vw;
+    background-color: black;
     display: flex;
-    width: 100px;
+    justify-content: center;
+  }
+  .cere{
+    /* display: flex; */
+    width: 50%;
     height: 49.3px;
     margin: 0;
   }
+  /* @media (max-width: 912px){
+    .cere{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    margin-right: 30%;
+    }
+  } */
   #cursos{
     height: 160px;
     padding: 0.5rem;
